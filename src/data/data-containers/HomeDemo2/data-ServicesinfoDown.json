@@ -1,0 +1,27 @@
+[
+    {
+        "img":"HomeDemo2Feature1",
+        "title":" Security & Trust",
+        "text":"Implement protection mechanisms, publish reports, and host security events."
+    },
+    {
+        "img":"HomeDemo2Feature2",
+        "title":"AI & Data Integration",
+        "text":"Develop AI algorithms, integrate insights, and host AI events."
+    },
+    {
+        "img":"HomeDemo2Feature3",
+        "title":" Team & Skill Enhancement",
+        "text":"Recruit experts, train the team, and launch interaction platform."
+    },
+    {
+        "img":"HomeDemo2Feature4",
+        "title":"AI Plugin Play",
+        "text":"Launch platform, create AI plugin library, and conduct workshops."
+    },
+    {
+        "img":"HomeDemo2Feature5",
+        "title":"Integration & Outreach",
+        "text":" Ensure seamless platform integration, explore global expansion, and set future vision."
+    }
+]

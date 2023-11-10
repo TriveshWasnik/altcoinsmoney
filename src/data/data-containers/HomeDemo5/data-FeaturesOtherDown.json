@@ -1,0 +1,33 @@
+[
+    {
+        "Steps":"four",
+        "title":"The Zen of Modularity",
+        "text":"Each tool on our platform having user-friendly interface like self-sufficient marvel. Navigate with ease and let our intuitive interface make the complex seem simple.",
+        "addMargin0":false
+    },
+    {
+        "Steps":"two",
+        "title":"Flow with Seamless Synergy",
+        "text":"Your workflow is your masterpiece, and we don't mess with art. Integrate AI effortlessly into your existing systems, thanks to our uniform APIs and data standards.",
+        "addMargin0":false
+    },
+    {
+        "Steps":"seven",
+        "title":" Endless Exploration Awaits",
+        "text":"Discover an ever-expanding universe of AI possibilities. Whether it's content creation, web design, or e-learning, we've got an AI solution that fits.",
+        "addMargin0":false
+    },
+    {
+        "Steps":"one",
+        "title":" One-Stop AI Shop",
+        "text":"Why browse endlessly? Find precisely what you need in our rich marketplace. From plug-and-play modules to custom solutions, your perfect fit is here.",
+        "addMargin0":false
+    },
+   
+    {
+        "Steps":"three",
+        "title":"All Under One Roof: Consolidate & Rule",
+        "text":"Manage all your initiatives from a single powerful interface. Your personal and professional worlds merge in an AI-empowered to generate meaningful outcomes.",
+        "addMargin0":true
+    }
+]

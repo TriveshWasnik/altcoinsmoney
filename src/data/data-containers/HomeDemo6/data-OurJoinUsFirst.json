@@ -1,0 +1,27 @@
+[
+    {
+        "ClassTop":"col-12 col-md-6 col-lg-4",
+        "ClassDown":"contribution-c-wapper has-arrow-right-lg has-arrow-top-md has-arrow-right-md has-arrow-down-sm",
+        "ClassSteps":"gradient-t orange",
+        "Steps":1,
+        "title":"Algorithmic Trading",
+        "text":"Say goodbye to hunches and hello to data-driven strategies. Our algorithms work around the clock to ensure each trade is a step toward your financial goals."
+    },
+    {
+        "ClassTop":"col-12 col-md-6 col-lg-4 mt-sm-30",
+        "ClassDown":"contribution-c-wapper has-arrow-right-lg has-arrow-bottom-md has-arrow-down-sm",
+        "ClassSteps":"gradient-t pink",
+        "Steps":2,
+        "title":"Bot Trading",
+        "text":"From market-making to scalping, our trading bots are designed for efficiency and profitability, offering you a diversified portfolio of strategies."
+    },
+    {
+        "ClassTop":"col-12 col-md-6 col-lg-4 mt-s",
+        "ClassDown":"contribution-c-wapper has-arrow-top-md has-arrow-down-sm",
+        "ClassSteps":"gradient-t blue",
+        "Steps":3,
+        "title":"Copy Trading",
+        "text":"Harness the collective wisdom of seasoned traders and benefit from their strategies without spending years gaining the same expertise."
+    }
+
+]

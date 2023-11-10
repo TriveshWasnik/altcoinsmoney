@@ -1,0 +1,22 @@
+[
+	{
+		"path":"#index-demo-2/home",
+		"nameLink":"Home"
+	},
+	{
+		"path":"#index-demo-4",
+		"nameLink":"About Us"
+	},
+	{
+		"path":"#index-demo-3",
+		"nameLink":"Buy"
+	},
+	{
+		"path":"#index-demo-2",
+		"nameLink":"Roadmap"
+	},
+	{
+		"path":"#index-demo-2",
+		"nameLink":"Contact Us"
+	}
+]

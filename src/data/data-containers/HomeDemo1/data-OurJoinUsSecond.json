@@ -1,0 +1,31 @@
+[
+
+    {
+        "ClassTop":"col-12 col-md-6 col-lg-4 mt-30",
+        "ClassDown":"contribution-c-wapper has-arrow-left-lg has-arrow-bottom-md has-arrow-down-sm",
+        "ClassSteps":"gradient-t green",
+        "Steps":6,
+        "title":"Navigate with Confidence",
+        "subtitle":" Unveil the Market's Secrets with Predictive AI",
+        "text":"In the complex world of crypto, our AI-led analytics serve as a guiding light, helping you make informed decisions even in volatile markets. "
+    },
+    {
+        "ClassTop":"col-12 col-md-6 col-lg-4 mt-30",
+        "ClassDown":"contribution-c-wapper has-arrow-left-lg has-arrow-left-md has-arrow-down-sm",
+        "ClassSteps":"gradient-t green",
+        "Steps":5,
+        "title":"A Rewarding User Experience",
+        "subtitle":"The Merit of Active Participation",
+        "text":"Our ecosystem bubbles with incentives, bounties, rewards, and recognition spurring active user participation."
+    },
+    {
+        "ClassTop":"col-12 col-md-6 col-lg-4 mt-30",
+        "ClassDown":"contribution-c-wapper ",
+        "ClassSteps":"gradient-t pink",
+        "Steps":4,
+        "title":" Empowering Investors",
+        "subtitle":"Crafting Legacies in Decentralized Finance",
+        "text":"We encourage investors to be trailblazers by providing a secure and empowering investment journey."
+    }
+
+]

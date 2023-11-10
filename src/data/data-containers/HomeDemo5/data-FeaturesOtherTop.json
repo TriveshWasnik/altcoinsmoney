@@ -1,0 +1,32 @@
+[
+    {
+        "Steps":"one",
+        "title":"Unparalleled Compatibility",
+        "text":"Why settle? From TensorFlow to PyTorch to scikit-learn, our platform harmonizes with a plethora of AI tools, bringing you a unified and clutter-free working space.",
+        "addMargin0":false
+    },
+    {
+        "Steps":"three",
+        "title":"Stay Ahead with Dynamic Discovery",
+        "text":"Embrace change. Our system’s auto-discovery feature ensures you are always at the forefront of AI tech. New plugins? They are just a click away.",
+        "addMargin0":false
+    },
+    {
+        "Steps":"five",
+        "title":" Intelligent Resource Management",
+        "text":"Say goodbye to glitches and bottlenecks. Our smart tech optimizes resources like GPU, memory, and parallel processing, delivering a fluid AI experience.",
+        "addMargin0":true
+    },
+    {
+        "Steps":"six",
+        "title":"The Command Center: Your Personal Dashboard",
+        "text":"This is not just another dashboard; but also it is mission control for your AI ventures. Manage, track, and execute — all from one sophisticated hub.",
+        "addMargin0":false
+    },
+    {
+        "Steps":"two",
+        "title":"Full-Throttle Support & Community",
+        "text":"Fly solo no more. Our vibrant ecosystem offers comprehensive documentation, insightful API guides, and a community that's as enthusiastic about AI as you are.",
+        "addMargin0":false
+    }
+]

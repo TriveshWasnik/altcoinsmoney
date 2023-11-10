@@ -1,0 +1,32 @@
+[
+    {
+        "Steps":"one",
+        "title":"Access the Altcoins Money Presale Platform",
+        "text":"Navigate to the Altcoins Money presale platform from our homepage. If you're not already a member, sign up or log in to your existing account.",
+        "addMargin0":false
+    },
+    {
+        "Steps":"two",
+        "title":"Enter the Purchase Section",
+        "text":"Once logged in, locate and click on the 'Buy Tokens' option. You'll be directed to a page where you can specify the amount of Altcoins Money tokens you wish to purchase.",
+        "addMargin0":false
+    },
+    {
+        "Steps":"seven",
+        "title":"Specify Your Purchase Amount",
+        "text":"Input the number of Altcoins Money tokens you want to buy. The platform will automatically display the equivalent amount in USDT.",
+        "addMargin0":false
+    },
+    {
+        "Steps":"three",
+        "title":"Confirm and Transfer USDT ",
+        "text":"Double-check the displayed USDT amount to ensure it matches your intended purchase. Follow the on-screen instructions to transfer the specified USDT amount from your digital wallet to the provided Altcoins Money address.",
+        "addMargin0":false
+    },
+    {
+        "Steps":"four",
+        "title":"Receive Your Altcoins Money Tokens",
+        "text":"Once your USDT transfer is confirmed, Altcoins Money tokens will be credited to your account on our platform. You can then transfer them to your preferred digital wallet or keep them on our platform, as per your convenience.",
+        "addMargin0":true
+    }
+]

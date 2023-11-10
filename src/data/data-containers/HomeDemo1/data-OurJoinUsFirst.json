@@ -1,0 +1,30 @@
+[
+    {
+        "ClassTop":"col-12 col-md-6 col-lg-4",
+        "ClassDown":"contribution-c-wapper has-arrow-right-lg has-arrow-top-md has-arrow-right-md has-arrow-down-sm",
+        "ClassSteps":"gradient-t orange",
+        "Steps":1,
+        "title":"A Symbiotic Ecosystem",
+        "subtitle":"Transparent Transactions and Unshakeable Trust",
+        "text":"In our domain, advanced AI functionalities merge with the principles of a DAO, resulting in an ecosystem filled with potential and rooted in trust."
+    },
+    {
+        "ClassTop":"col-12 col-md-6 col-lg-4 mt-sm-30",
+        "ClassDown":"contribution-c-wapper has-arrow-right-lg has-arrow-bottom-md has-arrow-down-sm",
+        "ClassSteps":"gradient-t pink",
+        "Steps":2,
+        "title":"Security First",
+        "subtitle":"Your Assets, Your Peace of Mind",
+        "text":"Investor security is an inherent promise at AltCoinsMoney, safeguarded through multiple layers of protection throughout the lifecycle of any project."
+    },
+    {
+        "ClassTop":"col-12 col-md-6 col-lg-4 mt-s",
+        "ClassDown":"contribution-c-wapper has-arrow-top-md has-arrow-down-sm",
+        "ClassSteps":"gradient-t blue",
+        "Steps":3,
+        "title":"Social Mining Revolution",
+        "subtitle":"Community-Driven Success ",
+        "text":"We value your digital footprints. Our pioneering Social Mining initiative rewards meaningful community participation, driving each project towards its true potential."
+    }
+
+]
