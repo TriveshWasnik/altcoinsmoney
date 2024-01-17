@@ -1,0 +1,27 @@
+[
+    {
+        "img":"HomeDemo2Feature1",
+        "title":"Foundation & Vision",
+        "text":"Establish core infrastructure and initiate key collaborations."
+    },
+    {
+        "img":"HomeDemo2Feature2",
+        "title":"Launchpad & Onboarding",
+        "text":"Roll out Launchpad, develop project tools, and host events."
+    },
+    {
+        "img":"HomeDemo2Feature3",
+        "title":" Social Mining ",
+        "text":"Launch platform, reward user engagement, and host community events."
+    },
+    {
+        "img":"HomeDemo2Feature4",
+        "title":" ISO & Engagement",
+        "text":"Introduce ISO platform, develop review system, and organize events."
+    },
+    {
+        "img":"HomeDemo2Feature5",
+        "title":" Trading Ecosystem ",
+        "text":"Introduce AI-driven trading tools and conduct training sessions"
+    }
+]

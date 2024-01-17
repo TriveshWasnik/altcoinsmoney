@@ -1,0 +1,37 @@
+[
+    {
+        "ClassName":"info-wrapper one",
+        "Num":"9",
+        "descr":"Hundred Billions Tokens For Team Wallet"
+    },
+    {
+        "ClassName":"info-wrapper two",
+        "Num":"600Billion",
+        "descr":"Seed Investors"
+    },
+    {
+        "ClassName":"info-wrapper four",
+        "Num":"7.5Trillion",
+        "descr":"Locked"
+    },
+    {
+        "ClassName":"info-wrapper five",
+        "Num":"2Trillion ",
+        "descr":" Wallet Sales"
+    },
+    {
+        "ClassName":"info-wrapper three",
+        "Num":"3.5Trillion",
+        "descr":" Strategic Partnerships"
+    },
+    {
+        "ClassName":"info-wrapper six",
+        "Num":"986Billion",
+        "descr":"Social Mining"
+    },
+    {
+        "ClassName":"info-wrapper seven",
+        "Num":"14Billion",
+        "descr":"Airdrops"
+    }
+]

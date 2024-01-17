@@ -1,0 +1,37 @@
+[
+    {
+        "img":"HomeDemo2FeaturesOther1",
+        "Steps":"one",
+        "title":"Foundation and Vision",
+        "text":"Establish core infrastructure and initiate key collaborations.",
+        "addMargin0":false
+    },
+    {
+        "img":"HomeDemo2FeaturesOther2",
+        "Steps":"two",
+        "title":"Social Mining",
+        "text":"Launch platform, reward user engagement, and host community events.",
+        "addMargin0":false
+    },
+    {
+        "img":"HomeDemo2FeaturesOther3",
+        "Steps":"three",
+        "title":"Trading Ecosystem",
+        "text":"Introduce AI-driven trading tools and conduct training sessions",
+        "addMargin0":false
+    },
+    {
+        "img":"HomeDemo2FeaturesOther4",
+        "Steps":"four",
+        "title":"AI & Data Integration",
+        "text":"Develop AI algorithms, integrate insights, and host AI events.",
+        "addMargin0":false
+    },
+    {
+        "img":"HomeDemo2FeaturesOther5",
+        "Steps":"five",
+        "title":"AI Plugin Play",
+        "text":"Launch platform, create AI plugin library, and conduct workshops.",
+        "addMargin0":true
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "img":"HomeDemo2FeaturesOther6",
+        "Steps":"six",
+        "title":"Launchpad & Onboarding",
+        "text":"Roll out Launchpad, develop project tools, and host events.",
+        "addMargin0":false
+    },
+    {
+        "img":"HomeDemo2FeaturesOther7",
+        "Steps":"five",
+        "title":"ISO & ENgagement",
+        "text":"Introduce ISO platform, develop review system, and organize events.",
+        "addMargin0":false
+    },
+    {
+        "img":"HomeDemo2FeaturesOther8",
+        "Steps":"eight",
+        "title":"Security & Trust",
+        "text":"Implement protection mechanisms, publish reports, and host security events.",
+        "addMargin0":false
+    },
+    {
+        "img":"HomeDemo2FeaturesOther9",
+        "Steps":"seven",
+        "title":"Team & Skill Enhancement",
+        "text":"Recruit experts, train the team, and launch interaction platform",
+        "addMargin0":false
+    },
+    {
+        "img":"HomeDemo2FeaturesOther0",
+        "Steps":"three",
+        "title":"Integration & Outreach",
+        "text":"Ensure seamless platform integration, explore global expansion, and set future vision",
+        "addMargin0":true
+    }
+]

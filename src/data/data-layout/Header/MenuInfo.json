@@ -1,22 +1,22 @@
 [
-	{
-		"path":"#index-demo-2/home",
-		"nameLink":"Home"
-	},
-	{
-		"path":"#index-demo-4",
-		"nameLink":"About Us"
-	},
-	{
-		"path":"#index-demo-3",
-		"nameLink":"Buy"
-	},
-	{
-		"path":"#index-demo-2",
-		"nameLink":"Roadmap"
-	},
-	{
-		"path":"#index-demo-2",
-		"nameLink":"Contact Us"
-	}
+  {
+    "path": "",
+    "nameLink": "Home"
+  },
+  {
+    "path": "/about",
+    "nameLink": "About Us"
+  },
+  {
+    "path": "/buy",
+    "nameLink": "Buy"
+  },
+  {
+    "path": "/roadmap",
+    "nameLink": "Roadmap"
+  },
+  {
+    "path": "/contactus",
+    "nameLink": "Contact Us"
+  }
 ]

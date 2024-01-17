@@ -1,0 +1,62 @@
+[
+  {
+    "month": "22 Sep",
+    "year": "2018",
+    "title": "Foundation and Vision",
+    "desc": "Establish core infrastructure and initiate key collaborations."
+  },
+  {
+    "month": "27 Nov",
+    "year": "2018",
+    "title": "Social Mining",
+    "desc": "Launch platform, reward user engagement, and host community events."
+  },
+  {
+    "month": "19 Dec",
+    "year": "2018",
+    "title": "Trading Ecosystem",
+    "desc": "Introduce AI-driven trading tools and conduct training sessions"
+  },
+  {
+    "month": "25 Jan",
+    "year": "2019",
+    "title": "AI & Data Integration",
+    "desc": "Develop AI algorithms, integrate insights, and host AI events."
+  },
+  {
+    "month": "22 Sep",
+    "year": "2018",
+    "title": "AI Plugin Play",
+    "desc": "Launch platform, create AI plugin library, and conduct workshops."
+  },
+  {
+    "month": "27 Nov",
+    "year": "2018",
+    "title": "Launchpad & Onboarding",
+    "desc": "Roll out Launchpad, develop project tools, and host events."
+  },
+  {
+    "month": "19 Dec",
+    "year": "2018",
+    "title": "ISO & Engagement",
+    "desc": "Introduce ISO platform, develop review system, and organize events."
+  },
+  {
+    "month": "25 Jan",
+    "year": "2019",
+    "title": "Security & Trust",
+    "desc": "Implement protection mechanisms, publish reports, and host security events."
+  },
+  {
+    "month": "19 Dec",
+    "year": "2018",
+    "title": "Team & Skill Enhancement",
+    "desc": "Recruit experts, train the team, and launch interaction platform"
+  },
+  {
+    "month": "25 Jan",
+    "year": "2019",
+    "title": "Integration & Outreach",
+    "desc": "Ensure seamless platform integration, explore global expansion, and set future vision"
+  }
+]

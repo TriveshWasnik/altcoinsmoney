@@ -1,5 +1,5 @@
-import {HeaderLogo} from '../../../utils/allImgs'
+import { HeaderLogo } from "../../../utils/allImgs";
 
 const Logo = HeaderLogo;
 
-export default Logo
+export default Logo;

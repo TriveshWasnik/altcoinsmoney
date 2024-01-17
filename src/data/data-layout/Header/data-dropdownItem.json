@@ -1,19 +1,15 @@
 [
-	{
-		"path":"/index-demo-1",
-		"nameLink":"Launchpad"
-	},
-	
-	{
-		"path":"/index-demo-5",
-		"nameLink":"AI Plugin Play"
-	},
-	{
-		"path":"/index-demo-6",
-		"nameLink":"Trading"
-	},
-	{
-		"path":"/index-demo-7",
-		"nameLink":"#"
-	}
+  {
+    "path": "/launchpad",
+    "nameLink": "Launchpad"
+  },
+
+  {
+    "path": "/ai-plugin-play",
+    "nameLink": "AI Plugin Play"
+  },
+  {
+    "path": "/trading",
+    "nameLink": "Trading"
+  }
 ]
