@@ -3,6 +3,12 @@ import ServicesBlock from "./ServicesBlock";
 
 import SectionHeading from "./SectionHeading";
 
+import image0 from "../../../assets/img/1cryptocurrencies.png";
+import image1 from "../../../assets/img/2buy.png";
+import image2 from "../../../assets/img/3gross.png";
+import image3 from "../../../assets/img/4funds.png";
+import image4 from "../../../assets/img/5budgeting.png";
+
 const FeaturesOther = ({
   icoCounterClass,
   Features2InfoTop,
@@ -12,6 +18,7 @@ const FeaturesOther = ({
   FeaturesOtherDown,
   ClassSpanTitle,
 }) => {
+  let images = [image0, image1, image2, image3, image4];
   return (
     <div className="features2 section-padding-100-70">
       <div className="container">
@@ -31,12 +38,19 @@ const FeaturesOther = ({
               <ul className="token-information">
                 {FeaturesOtherTop &&
                   FeaturesOtherTop.map((item, key) => (
-                    <li key={key}>
-                      <span className={item.Steps} />
-                      <h5>{item.title}</h5>
-                      <p className={`${item.addMargin0 && "mb-0"}`}>
-                        {item.text}
-                      </p>
+                    <li key={key} className="feature-other-container">
+                      <div className="img-container">
+                        <img alt="step 1" src={`${images[key]}`} />
+                      </div>
+                      {
+                        //<span className={item.Steps} />
+                      }
+                      <div className="text-content">
+                        <h5>{item.title}</h5>
+                        <p className={`${item.addMargin0 && "mb-0"}`}>
+                          {item.text}
+                        </p>
+                      </div>
                     </li>
                   ))}
               </ul>

@@ -11,7 +11,7 @@ import {
 import TokenDistributionInfo from "../../data/data-containers/HomeDataContainer/data-TokenDistributionInfo.json";
 import FeaturesOtherTop from "../../data/data-containers/HomeDataContainer/data-FeaturesOtherTop.json";
 import FeaturesOtherDown from "../../data/data-containers/HomeDataContainer/data-FeaturesOtherDown.json";
-import FaqInfo from "../../data/data-containers/HomeDataContainer/data-FaqInfo.json";
+import FaqInfo from "../../data/data-containers/data-FaqInfo.json";
 
 import { HomeDemo1About1 } from "../../utils/allImgs";
 
@@ -40,7 +40,15 @@ const HomeContainer = () => {
   return (
     <div>
       <Header Title="Altcoins Money" />
-      <HeroSectionHome />
+      <HeroSectionHome
+        ClassSec="hero-section app section-padding"
+        specialHead="Welcome to AltCoinsMoney"
+        title="An AI and Blockchain-Enabled Innovation Platform"
+        subtitle="At its core, our platform harnesses blockchain technology aiming to redefine the decentralized finance (DeFi) arena. Integrating predictive AI, automated trading, and robust investor fund safeguards, we are shifting paradigms in how you experience cryptocurrencies"
+        //"Bridging the Best of Two Worlds: Blockchain Meets AI"
+        link1="Whitepaper"
+        link2="Audit"
+      />
       <div className="clearfix" />
       <Features2
         icoCounterClass="ico-counter dotted-bg mb-30"

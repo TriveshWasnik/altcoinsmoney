@@ -1,32 +1,46 @@
 [
-	{
-		"title":"RIVACY &amp; TOS",
-		"text1":"dvertiser Agreement",
-		"text2":"cceptable Use Policy",
-		"text3":"rivacy Policy",
-		"text4":"echnology Privacy",
-		"text5":"eveloper Agreement",
-        "classBlock":"col-12 col-lg-3 col-md-6",
-        "classInfo":"contact_info mt-x text-center fadeInUp"
-	},
-	{
-		"title":"NAVIGATE",
-		"text1":"Advertisers",
-		"text2":"Developers",
-		"text3":"Resources",
-		"text4":"Company",
-		"text5":"Connect",
-        "classBlock":"col-12 col-lg-2 col-md-6",
-        "classInfo":"contact_info mt-s text-center fadeInUp"
-	},
-	{
-		"title":"CONTACT US",
-		"text1":"Mailing Address:xx00 E. Union Ave",
-		"text2":"Suite 1100. Denver, CO 80237",
-		"text3":"+999 90932 627",
-		"text4":"support@yourdomain.com",
-        "classBlock":"col-12 col-lg-3 col-md-6",
-        "classInfo":"contact_info mt-s text-center fadeInUp",
-		"text5":false
-	}
+  {
+    "title": "PLATFORM",
+    "text1": "Home",
+    "link1": "/",
+    "text2": "About Us",
+    "link2": "/about",
+    "text3": "Road map",
+    "link3": "/roadmap",
+    "text4": "Privacy Policy",
+    "link4": "#",
+    "text5": "Terms of Service",
+    "link5": "#",
+    "classBlock": "col-12 col-lg-3 col-md-6",
+    "classInfo": "contact_info mt-x text-center fadeInUp"
+  },
+  {
+    "title": "NAVIGATE",
+    "text1": "White Paper",
+    "link1": "https://altcoinsmoney.gitbook.io/altcoinsmoney/",
+    "text2": "Launchpad",
+    "link2": "/launchpad",
+    "text3": "AI Plugin Play",
+    "link3": "/ai-plugin-play",
+    "text4": "Trading",
+    "link4": "/trading",
+    "text5": "How to Buy",
+    "link5": "/buy",
+    "classBlock": "col-12 col-lg-2 col-md-6",
+    "classInfo": "contact_info mt-s text-center fadeInUp"
+  },
+  {
+    "title": "Help",
+    "text1": "help@altcoinsmoney.ai",
+    "link1": "#",
+    "text2": "",
+    "link2": "#",
+    "text3": "Contact Us",
+    "link3": "/contactus",
+    "text4": "FAQ",
+    "link4": "#",
+    "classBlock": "col-12 col-lg-3 col-md-6",
+    "classInfo": "contact_info mt-s text-center fadeInUp",
+    "text5": false
+  }
 ]

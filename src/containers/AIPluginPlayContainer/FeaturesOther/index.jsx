@@ -1,6 +1,17 @@
 import ServicesBlock from "./ServicesBlock";
 
 import SectionHeading from "../FeaturesOther/SectionHeading";
+import image0 from "../../../assets/img/icon-aiplugin/backward-compatibility.png";
+import image1 from "../../../assets/img/icon-aiplugin/view.png";
+import image2 from "../../../assets/img/icon-aiplugin/resources-management.png";
+import image3 from "../../../assets/img/icon-aiplugin/network.png";
+import image4 from "../../../assets/img/icon-aiplugin/help-desk.png";
+
+import image5 from "../../../assets/img/icon-aiplugin/3d-cube.png";
+import image6 from "../../../assets/img/icon-aiplugin/synergy.png";
+import image7 from "../../../assets/img/icon-aiplugin/explore.png";
+import image8 from "../../../assets/img/icon-aiplugin/shop-assistant.png";
+import image9 from "../../../assets/img/icon-aiplugin/business.png";
 
 const FeaturesOther = ({
   Features2InfoTop,
@@ -10,6 +21,8 @@ const FeaturesOther = ({
   FeaturesOtherDown,
   ClassSpanTitle,
 }) => {
+  let images1 = [image0, image1, image2, image3, image4];
+  let images2 = [image5, image6, image7, image8, image9];
   return (
     <div className="features2 section-padding-100-70">
       <div className="container ">
@@ -36,12 +49,16 @@ const FeaturesOther = ({
                   <ul className="token-information ">
                     {FeaturesOtherTop &&
                       FeaturesOtherTop.map((item, key) => (
-                        <li key={key}>
-                          <span className={item.Steps} />
-                          <h6>{item.title}</h6>
-                          <p className={`${item.addMargin0 && "mb-0"}`}>
-                            {item.text}
-                          </p>
+                        <li key={key} className="feature-other-container">
+                          <div className="img-container">
+                            <img alt={item.title} src={`${images1[key]}`} />
+                          </div>
+                          <div className="text-content">
+                            <h6>{item.title}</h6>
+                            <p className={`${item.addMargin0 && "mb-0"}`}>
+                              {item.text}
+                            </p>
+                          </div>
                         </li>
                       ))}
                   </ul>
@@ -52,12 +69,16 @@ const FeaturesOther = ({
                   <ul className="token-information">
                     {FeaturesOtherDown &&
                       FeaturesOtherDown.map((item, key) => (
-                        <li key={key}>
-                          <span className={item.Steps} />
-                          <h6>{item.title}</h6>
-                          <p className={`${item.addMargin0 && "mb-0"}`}>
-                            {item.text}
-                          </p>
+                        <li key={key} className="feature-other-container">
+                          <div className="img-container">
+                            <img alt={item.title} src={`${images2[key]}`} />
+                          </div>
+                          <div className="text-content">
+                            <h6>{item.title}</h6>
+                            <p className={`${item.addMargin0 && "mb-0"}`}>
+                              {item.text}
+                            </p>
+                          </div>
                         </li>
                       ))}
                   </ul>

@@ -201,17 +201,17 @@ export const SmartContractinfoLeft = [
 export const Features2InfoTop = [
   {
     img: HomeDemo2FeaturesF1,
-    title: "Engagement & Rewards:",
+    title: "Engagement & Rewards",
     text: "Through social mining, users actively engage and contribute, earning tokens in the process",
   },
   {
     img: HomeDemo2FeaturesF2,
-    title: "AI Integration:",
+    title: "AI Integration",
     text: "A plug-and-play AI platform, delivering results at unprecedented speed.",
   },
   {
     img: HomeDemo2FeaturesF3,
-    title: "AI-Powered Insight & Assets:",
+    title: "AI-Powered Insight & Assets",
     text: "Our Generative AI crafts unique digital assets, while Predictive AI offers insights.",
   },
 ];
@@ -219,17 +219,17 @@ export const Features2InfoTop = [
 export const Features2InfoDown = [
   {
     img: HomeDemo2FeaturesF4,
-    title: "Unyielding Security:",
+    title: "Unyielding Security",
     text: " Investor funds are shielded with top-tier security mechanisms.",
   },
   {
     img: HomeDemo2FeaturesF5,
-    title: "Holistic Solutions:",
+    title: "Holistic Solutions",
     text: "Integrating social mining with tools tailored for project management and productivity.",
   },
   {
     img: HomeDemo2FeaturesF6,
-    title: "Strategic Collaborations:",
+    title: "Strategic Collaborations",
     text: "Our partnerships fuel growth and innovation.",
   },
 ];

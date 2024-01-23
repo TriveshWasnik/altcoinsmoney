@@ -1,7 +1,13 @@
 [
-	{"IcoName":"fa fa-facebook"},
-	{"IcoName":"fa fa-twitter"},
-	{"IcoName":"fa fa-google-plus"},
-	{"IcoName":"fa fa-instagram"},
-	{"IcoName":"fa fa-linkedin"}
+  { "link": "#", "IcoName": "fa fa-twitter" },
+  { "link": "https://t.me/+NHQc7mdmcKNjY2E9", "IcoName": "fa fa-telegram" },
+  {
+    "link": "https://www.instagram.com/altcoinsmoney?igsh=MWR0cWttNjQ4NTVjNw==",
+    "IcoName": "fa fa-instagram"
+  },
+  {
+    "link": "https://whatsapp.com/channel/0029Va99eg4JuyAIdqWvoX1G",
+    "IcoName": "fa fa-whatsapp"
+  },
+  { "link": "#", "IcoName": "fa fa-medium" }
 ]

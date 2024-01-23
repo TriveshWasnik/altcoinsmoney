@@ -6,6 +6,8 @@ import { Services } from "../../data/data-containers/AboutDataContainer/data-Abo
 import PlatformIco from "../../data/data-containers/AboutDataContainer/data-PlatformIco.json";
 
 import { HomeDemo4Wwhitepaper, HomeDemo4About3 } from "../../utils/allImgs";
+import aboutHeroPlatform from "../../assets/img/about_hero_platform.png";
+import aboutAltcoinsMoney from "../../assets/img/about_altcoinsmoney.png";
 
 import "./style/HomeDemo4.scss";
 
@@ -35,8 +37,8 @@ const AboutContainer = () => {
         title="A Revolution In Crypto Investments"
         // link1="Whitepaper"
         // link2="Buy Token"
-        img={HomeDemo4About3}
-      />{" "}
+        img={aboutHeroPlatform}
+      />
       <br /> <br />
       {/* <SecPrices
             ClassSec="features section-padding-100-70"
@@ -46,7 +48,7 @@ const AboutContainer = () => {
       <AboutOther2 ClassTitle="gradient-text" />
       <OurPlatform data={PlatformIco} />
       <OurServices data={Services} />
-      <SpreadMap Wwhitepaper={HomeDemo4Wwhitepaper} />
+      <SpreadMap Wwhitepaper={aboutAltcoinsMoney} />
       {/* <TokenDistribution
             data={TokenDistributionInfo}
             ClassSpanTitle="gradient-text blue"

@@ -4,7 +4,7 @@ const Roadmap = ({ data, ClassSpanTitle }) => {
   return (
     <section className="roadmap section-padding-0-0" id="roadmap">
       <SectionHeading
-        title="ICO Roadmap"
+        title="Roadmap"
         text="AltCoinsMoney Roadmap : 2.5 Years Overview"
         ClassSpanTitle={ClassSpanTitle}
       />

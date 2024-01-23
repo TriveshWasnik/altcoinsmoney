@@ -1,62 +1,62 @@
 [
   {
-    "month": "22 Sep",
-    "year": "2018",
+    "month": "May",
+    "year": "2024",
     "title": "Foundation and Vision",
-    "desc": "Establish core infrastructure and initiate key collaborations."
+    "desc": "This phase focuses on establishing the necessary infrastructure and forging key collaborations essential for the foundational structure of the business."
   },
   {
-    "month": "27 Nov",
-    "year": "2018",
-    "title": "Social Mining",
-    "desc": "Launch platform, reward user engagement, and host community events."
-  },
-  {
-    "month": "19 Dec",
-    "year": "2018",
-    "title": "Trading Ecosystem",
-    "desc": "Introduce AI-driven trading tools and conduct training sessions"
-  },
-  {
-    "month": "25 Jan",
-    "year": "2019",
-    "title": "AI & Data Integration",
-    "desc": "Develop AI algorithms, integrate insights, and host AI events."
-  },
-  {
-    "month": "22 Sep",
-    "year": "2018",
-    "title": "AI Plugin Play",
-    "desc": "Launch platform, create AI plugin library, and conduct workshops."
-  },
-  {
-    "month": "27 Nov",
-    "year": "2018",
+    "month": "August",
+    "year": "2024",
     "title": "Launchpad & Onboarding",
-    "desc": "Roll out Launchpad, develop project tools, and host events."
+    "desc": "In this stage, the emphasis is on rolling out the Launchpad, developing essential project management tools, and hosting events to engage stakeholders."
   },
   {
-    "month": "19 Dec",
-    "year": "2018",
+    "month": "November",
+    "year": "2024",
+    "title": "Social Mining",
+    "desc": "The key activities involve launching a platform dedicated to social mining, incentivizing user engagement, and organizing community-centric events."
+  },
+  {
+    "month": "February",
+    "year": "2025",
     "title": "ISO & Engagement",
-    "desc": "Introduce ISO platform, develop review system, and organize events."
+    "desc": "This phase is about introducing an ISO platform, developing a robust review system, and organizing various events to boost engagement."
   },
   {
-    "month": "25 Jan",
-    "year": "2019",
-    "title": "Security & Trust",
-    "desc": "Implement protection mechanisms, publish reports, and host security events."
+    "month": "May",
+    "year": "2025",
+    "title": "Trading Ecosystem",
+    "desc": "The focus here is on introducing innovative AI-driven trading tools and conducting comprehensive training sessions to educate users or team members."
   },
   {
-    "month": "19 Dec",
-    "year": "2018",
+    "month": "August",
+    "year": "2025",
     "title": "Team & Skill Enhancement",
-    "desc": "Recruit experts, train the team, and launch interaction platform"
+    "desc": "This stage involves recruiting industry experts, providing extensive training to the team, and launching a platform for enhanced team interaction."
   },
   {
-    "month": "25 Jan",
-    "year": "2019",
+    "month": "November",
+    "year": "2025",
+    "title": "AI Plugin Play",
+    "desc": "The key tasks include launching a specialized platform, creating a library of AI plugins, and conducting workshops to facilitate knowledge sharing and skill development."
+  },
+  {
+    "month": "February",
+    "year": "2026",
+    "title": "AI & Data Integration",
+    "desc": "This phase is centered on the development of AI algorithms, integrating these insights for enhanced decision-making, and hosting events focused on AI advancements."
+  },
+  {
+    "month": "May",
+    "year": "2026",
+    "title": "Security & Trust",
+    "desc": "The activities focus on implementing robust protection mechanisms, publishing detailed reports to establish transparency, and hosting events to emphasize security."
+  },
+  {
+    "month": "August",
+    "year": "2026",
     "title": "Integration & Outreach",
-    "desc": "Ensure seamless platform integration, explore global expansion, and set future vision"
+    "desc": "This final phase ensures seamless integration of all platforms, explores opportunities for global expansion, and sets the vision for the future of the business."
   }
 ]

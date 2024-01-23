@@ -10,7 +10,7 @@ const SpreadMap = ({ Wwhitepaper, SectionIcon11 }) => {
               <img
                 draggable="false"
                 src={Wwhitepaper}
-                className="center-block"
+                className="center-block about-altcoinsmoney-img"
                 alt=""
               />
             </div>

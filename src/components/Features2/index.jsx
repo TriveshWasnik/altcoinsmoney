@@ -1,5 +1,5 @@
-import Counter from "./Counter";
 import ServicesBlock from "./ServicesBlock";
+import homeFeature2 from "../../assets/img/home_feature2.png";
 
 const Features2 = ({
   icoCounterClass,
@@ -14,11 +14,8 @@ const Features2 = ({
       <div className="container">
         <div className="row align-items-center">
           <div className="col-12 col-lg-5 offset-lg-0 col-md-8 offset-md-2 col-sm-10 offset-sm-1">
-            <div>
-              <img
-                src="https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt=""
-              />
+            <div className="home-feature-container">
+              <img src={homeFeature2} alt="" />
             </div>
           </div>
           {/*<Counter icoCounterClass={icoCounterClass} />*/}

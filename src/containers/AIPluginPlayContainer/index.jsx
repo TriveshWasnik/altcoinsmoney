@@ -6,8 +6,7 @@ import PlatformIco from "../../data/data-containers/AIPluginPlayDataContainer/da
 import FeaturesOtherTop from "../../data/data-containers/AIPluginPlayDataContainer/data-FeaturesOtherTop.json";
 import FeaturesOtherDown from "../../data/data-containers/AIPluginPlayDataContainer/data-FeaturesOtherDown.json";
 
-import { HomeDemo5HeroImg } from "../../utils/allImgs";
-
+import streamline from "../../assets/img/streamline-transparent.png";
 import "./style/HomeDemo5.scss";
 
 import Header from "../../layouts/Header";
@@ -33,7 +32,7 @@ const AIPluginPlayContainer = () => {
         text="This Isn't Your Average Workday"
         //   link1="Whitepaper"
         //   link2="Buy Token"
-        img={HomeDemo5HeroImg}
+        img={streamline}
       />
       <div className="clearfix" />
       {/* <OurServices 

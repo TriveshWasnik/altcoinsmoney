@@ -37,12 +37,6 @@ nav {
   border: none;
 }
 
-.shrink {
-  animation: 0.3s ease-in-out;
-  animation-name: fadeInDown;
-  background: linear-gradient(135deg, rgb(12, 94, 180), rgb(92, 223, 229));
-}
-
 @-webkit-keyframes fadeInDown {
   0% {
     opacity: 0;
@@ -171,7 +165,7 @@ nav {
 .shrink {
   animation: 0.3s ease-in-out;
   animation-name: fadeInDown;
-  background: linear-gradient(135deg, rgb(12, 94, 180), rgb(92, 223, 229));
+  background: #d7dfef;
 }
 
 @-webkit-keyframes fadeInDown {

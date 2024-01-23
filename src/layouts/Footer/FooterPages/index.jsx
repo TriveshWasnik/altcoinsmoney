@@ -6,6 +6,7 @@ import "../Footer.scss";
 
 import IcoName from "../../../data/data-layout/Footer/data-IcoName.json";
 import TextFooter from "../../../data/data-layout/Footer/data-TextFooter.json";
+import { Link } from "react-router-dom";
 
 const FooterPages = ({ ClassSpanTitle = "" }) => {
   return (
@@ -117,9 +118,9 @@ const FooterPages = ({ ClassSpanTitle = "" }) => {
                       </a>
                     </div>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Velit ducimus voluptatibus neque illo id repellat
-                      quisquam? Autem expedita earum quae laborum ipsum ad.
+                      Join AltCoinsMoney for AI & blockchain-powered crypto
+                      investing. We prioritize security, reward social
+                      contributions, and offer AI market insights.
                     </p>
                   </div>
                   <div
@@ -128,9 +129,9 @@ const FooterPages = ({ ClassSpanTitle = "" }) => {
                   >
                     {IcoName &&
                       IcoName.map((item, key) => (
-                        <a key={key} href="#">
+                        <Link key={key} to={item.link}>
                           <i className={item.IcoName} aria-hidden="true" />
-                        </a>
+                        </Link>
                       ))}
                   </div>
                 </div>
@@ -142,22 +143,22 @@ const FooterPages = ({ ClassSpanTitle = "" }) => {
                     <div className="contact_info_area d-sm-flex justify-content-between">
                       <div className={item.classInfo} data-wow-delay="0.3s">
                         <h5>{item.title}</h5>
-                        <a href="#">
+                        <Link to={item.link1}>
                           <p>{item.text1}</p>
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link to={item.link2}>
                           <p>{item.text2}</p>
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link to={item.link3}>
                           <p>{item.text3}</p>
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link to={item.link4}>
                           <p>{item.text4}</p>
-                        </a>
+                        </Link>
                         {item.text5 && (
-                          <a href="#">
+                          <Link to={item.link5}>
                             <p>{item.text5}</p>
-                          </a>
+                          </Link>
                         )}
                       </div>
                     </div>

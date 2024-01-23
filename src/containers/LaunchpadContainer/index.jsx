@@ -11,7 +11,8 @@ import OurJoinUsSecond from "../../data/data-containers/LaunchpadDataContainer/d
 import PlatformIco from "../../data/data-containers/LaunchpadDataContainer/data-PlatformIco.json";
 
 import { HomeDemo1Platform1, HomeDemo1About1 } from "../../utils/allImgs";
-
+import launchpadHero from "../../assets/img/launchpad-hero.png";
+import launchpadFutureFundrising from "../../assets/img/launchpad-future-fundrising.png";
 import "./style/HomeDemo1.scss";
 
 import Header from "../../layouts/Header";
@@ -34,12 +35,12 @@ const LaunchpadContainer = () => {
       <Header Title="Altcoins Money - Launchpad" />
       <SecHeroSection
         ClassSec="hero-section moving section-padding"
-        ClassDiv="col-12 col-lg-5 col-md-12"
+        ClassDiv="col-12 col-lg-6 col-md-12"
         specialHead="AltCoinsMoney: AI Meets Blockchain : A Revolution In Crypto Investments"
         title="Step Into A World Where Visionary Technology Reshapes Crypto Investment."
         // link1="Whitepaper"
         // link2="Buy Token"
-        img={HomeDemo1Platform1}
+        img={launchpadHero}
       />{" "}
       <br /> <br /> <br /> <br /> <br /> <br />
       {/* <SecTrust data={SecTrustContent} /> */}
@@ -49,7 +50,7 @@ const LaunchpadContainer = () => {
         imgDwon={false}
         title="Introducing the LaunchPad"
         text="The Future of Fundraising: Your Bridge to Crypto Success"
-        img={HomeDemo1About1}
+        img={launchpadFutureFundrising}
       />
       {/* <AboutOther /> */}
       <SmartContract data={SmartContractinfo} />

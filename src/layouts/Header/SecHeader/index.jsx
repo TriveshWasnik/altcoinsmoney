@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
 
-const SecHeader = ({ Logo, dropdownItem, MenuInfo }) => {
+const SecHeader = ({ Logo, dropdownItem }) => {
   return (
     <nav className="navbar navbar-expand-lg navbar-white fixed-top" id="banner">
       <div className="container">
@@ -87,14 +87,14 @@ const SecHeader = ({ Logo, dropdownItem, MenuInfo }) => {
                 </li>
               ))} */}
             <li className="lh-55px">
-              <a
-                href="https://altcoinsmoney.gitbook.io/altcoinsmoney/"
+              <Link
+                to="https://altcoinsmoney.gitbook.io/altcoinsmoney/"
                 target="_blank"
                 rel=""
                 className="btn login-btn ml-50"
               >
                 Whitepaper
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
