@@ -24,13 +24,14 @@ import AboutOther from "../../components/PageHome/AboutOther";
 import SecAbout from "../../components/PageHome/SecAbout";
 
 import Features2 from "../../components/PageHome/Features2";
-import TokenDistribution from "../../components/PageHome/TokenDistribution";
-import FeaturesOther from "../../components/PageHome/FeaturesOther";
+import TokenDistribution from "../../components/Common/TokenDistribution";
 import Faq from "../../components/PageHome/Faq";
-import OurTeam from "../../components/PageHome/OurTeam";
+import OurTeam from "../../components/Common/OurTeam";
 
 import HowItWorks from "../../components/PageHome/HowItWorks";
 import HeroSectionHome from "../../components/PageHome/HeroSectionHome";
+import RoadMapInfo from "../../data/data-containers/RoadmapDataContainer/data-RoadmapInfo.json";
+import Roadmap from "../../components/Common/Roadmap/index.jsx";
 
 const HomeContainer = () => {
   useEffect(() => {
@@ -69,11 +70,7 @@ const HomeContainer = () => {
         ClassSpanTitle="gradient-text"
       />
       <br />
-      <FeaturesOther
-        addOther={true}
-        FeaturesOtherTop={FeaturesOtherTop}
-        FeaturesOtherDown={FeaturesOtherDown}
-      />
+      <Roadmap data={RoadMapInfo} ClassSpanTitle="gradient-text" />
       <br /> <br />
       <Faq data={FaqInfo} ClassSpanTitle="gradient-text" />
       <OurTeam data={OurTeamInfo} ClassSpanTitle="gradient-text" />

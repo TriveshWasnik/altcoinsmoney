@@ -19,7 +19,7 @@ import AboutOther2 from "../../components/PageAbout/AboutOther2";
 import SpreadMap from "../../components/PageAbout/SpreadMap";
 
 import OurServices from "../../components/PageAbout/OurServices";
-import OurPlatform from "../../components/PageAbout/OurPlatform";
+import OurPlatform from "../../components/Common/OurPlatform";
 
 const AboutContainer = () => {
   useEffect(() => {
@@ -39,7 +39,11 @@ const AboutContainer = () => {
       <br /> <br />
       <div className="clearfix" />
       <AboutOther2 ClassTitle="gradient-text" />
-      <OurPlatform data={PlatformIco} />
+      <OurPlatform
+        title="The Crucible of Innovtion and Capital"
+        text="Introducing the Launchpad"
+        description="In a rapidly evolving crypto landscape, our LaunchPad is the linchpin that bridges innovative startups with discerning investors. With a unique approach that transcends traditional ICOs and IDOs, we smooth your journey into the crypto universe."
+      />
       <OurServices data={Services} />
       <SpreadMap Wwhitepaper={aboutAltcoinsMoney} />
       <FooterPages ClassSpanTitle="gradient-text " />

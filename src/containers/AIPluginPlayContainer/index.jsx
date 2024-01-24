@@ -14,7 +14,7 @@ import FooterPages from "../../layouts/Footer/FooterPages";
 
 import SecHeroSection from "../../components/PageAIPluginPlay/HeroSection";
 import FeaturesOther from "../../components/PageAIPluginPlay/FeaturesOther";
-import OurPlatform from "../../components/PageAIPluginPlay/OurPlatform";
+import OurPlatform from "../../components/Common/OurPlatform";
 
 const AIPluginPlayContainer = () => {
   useEffect(() => {
@@ -39,7 +39,11 @@ const AIPluginPlayContainer = () => {
         FeaturesOtherDown={FeaturesOtherDown}
       />
       <br /> <br /> <br />
-      <OurPlatform data={PlatformIco} />
+      <OurPlatform
+        title="Ready To Dive In?"
+        text="Your Future, AI-Enhanced, Starts Here"
+        description="Ready to dive in? Our AI Plugin Play Platform isn't just about technology; it's about transforming potential into performance. Supercharge your future. Embrace the AI revolution."
+      />
       <FooterPages ClassSpanTitle="gradient-text" />
     </div>
   );

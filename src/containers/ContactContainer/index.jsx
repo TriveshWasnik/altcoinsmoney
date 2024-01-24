@@ -6,7 +6,7 @@ import "./style/HomeDemo2.scss";
 import Header from "../../layouts/Header";
 import FooterPages from "../../layouts/Footer/FooterPages";
 
-import OurTeam from "../../components/PageContact/OurTeam";
+import OurTeam from "../../components/Common/OurTeam";
 import { OurTeamInfo } from "../../data/data-containers/ContactDataContainer/data-Contact";
 import ContactUsEmail from "../../components/PageContact/ContactUsEmail";
 

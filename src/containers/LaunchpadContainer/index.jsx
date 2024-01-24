@@ -22,7 +22,7 @@ import SecAbout from "../../components/PageLaunchpad/SecAbout";
 import SmartContract from "../../components/PageLaunchpad/SmartContract";
 import SmartContractOther from "../../components/PageLaunchpad/SmartContractOther";
 import JoinUs from "../../components/PageLaunchpad/JoinUs";
-import OurPlatform from "../../components/PageLaunchpad/OurPlatform";
+import OurPlatform from "../../components/Common/OurPlatform";
 
 const LaunchpadContainer = () => {
   useEffect(() => {
@@ -41,7 +41,14 @@ const LaunchpadContainer = () => {
       />
       <br /> <br /> <br /> <br /> <br /> <br />
       <div className="clearfix" />
-      <OurPlatform data={PlatformIco} />
+      <OurPlatform
+        title="Our Mission"
+        text="Catalyzing Your Ambitions in Decentralized Finance"
+        description="Our compass is set on sculpting an AI-enriched decentralized
+            ecosystem. We stand as advocates for individuals, startups, and
+            seasoned developers, offering them an unparalleled platform to
+            catalyze their ambitions."
+      />
       <SecAbout
         imgDwon={false}
         title="Introducing the LaunchPad"

@@ -1,9 +1,10 @@
 const SectionHeading = ({
-  title,
-  text,
+  title = "",
+  text = "",
+  description = "",
   img,
   ClassSpan = "dream-dots justify-content-center",
-  ClassSpanTitle = "",
+  ClassSpanTitle = "gradient-text ",
 }) => {
   return (
     <>
@@ -21,12 +22,7 @@ const SectionHeading = ({
             <span className={ClassSpanTitle}>{title}</span>
           </div>
           <h2 data-aos="fade-up">{text}</h2>
-          <p data-aos="fade-up">
-            Our compass is set on sculpting an AI-enriched decentralized
-            ecosystem. We stand as advocates for individuals, startups, and
-            seasoned developers, offering them an unparalleled platform to
-            catalyze their ambitions.
-          </p>
+          <p data-aos="fade-up">{description}</p>
         </div>
       )}
     </>

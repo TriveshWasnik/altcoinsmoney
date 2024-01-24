@@ -11,10 +11,10 @@ import Header from "../../layouts/Header";
 import FooterPages from "../../layouts/Footer/FooterPages";
 
 import SecHeroSection from "../../components/PageRoadmap/HeroSection";
-import TokenDistribution from "../../components/PageRoadmap/TokenDistribution";
-import OurTeam from "../../components/PageRoadmap/OurTeam";
+import TokenDistribution from "../../components/Common/TokenDistribution";
+import OurTeam from "../../components/Common/OurTeam";
 
-import Roadmap from "../../components/PageRoadmap/Roadmap/index.jsx";
+import Roadmap from "../../components/Common/Roadmap/index.jsx";
 
 const RoadmapContainer = () => {
   useEffect(() => {
