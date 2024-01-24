@@ -19,7 +19,7 @@ const AboutOther = ({
                 <span className={ClassTitle}>{subtext}</span>
               </div>
               <h4
-                className={`fadeInUp`}
+                className={!subtext ? ClassTitle : "fadeInUp"}
                 data-aos="fade-up"
                 data-aos-delay="200"
               >

@@ -27,10 +27,10 @@ import Faq from "../../components/PageHome/Faq";
 import OurTeam from "../../components/Common/OurTeam";
 
 import HowItWorks from "../../components/Common/HowItWorks";
-import HeroSectionHome from "../../components/PageHome/HeroSectionHome";
 import RoadMapInfo from "../../data/data-containers/RoadmapDataContainer/data-RoadmapInfo.json";
 import Roadmap from "../../components/Common/Roadmap/index.jsx";
 import { HomeDemo1Computer } from "../../utils/allImgs";
+import SecHeroSection from "../../components/Common/HeroSection";
 
 const HomeContainer = () => {
   useEffect(() => {
@@ -40,13 +40,15 @@ const HomeContainer = () => {
   return (
     <div>
       <Header Title="Altcoins Money" />
-      <HeroSectionHome
+      <SecHeroSection
         ClassSec="hero-section app section-padding"
+        ClassDiv="col-12 col-lg-6 col-md-12"
         specialHead="Welcome to AltCoinsMoney"
         title="An AI and Blockchain-Enabled Innovation Platform"
-        subtitle="At its core, our platform harnesses blockchain technology aiming to redefine the decentralized finance (DeFi) arena. Integrating predictive AI, automated trading, and robust investor fund safeguards, we are shifting paradigms in how you experience cryptocurrencies"
+        description="At its core, our platform harnesses blockchain technology aiming to redefine the decentralized finance (DeFi) arena. Integrating predictive AI, automated trading, and robust investor fund safeguards, we are shifting paradigms in how you experience cryptocurrencies"
         link1="Whitepaper"
         link2="Audit"
+        showForm={true}
       />
       <div className="clearfix" />
       <Features2

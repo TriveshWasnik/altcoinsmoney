@@ -11,7 +11,7 @@ import "./style/HomeDemo4.scss";
 import Header from "../../layouts/Header";
 import FooterPages from "../../layouts/Footer/FooterPages";
 
-import SecHeroSection from "../../components/PageAbout/HeroSection";
+import SecHeroSection from "../../components/Common/HeroSection";
 import AboutOther from "../../components/Common/AboutOther";
 
 import SpreadMap from "../../components/PageAbout/SpreadMap";
@@ -32,7 +32,12 @@ const AboutContainer = () => {
         ClassDiv="col-12 col-lg-6 col-md-12"
         specialHead="Where AI Meets Blockchain:"
         title="A Revolution In Crypto Investments"
+        description="Welcome to AltCoinsMoney, the platform that redefines the
+                  intersection of Artificial Intelligence and blockchain
+                  technology. In a world awash with decentralized finance
+                  options, we stand out as an innovator."
         img={aboutHeroPlatform}
+        showForm={false}
       />
       <br /> <br />
       <div className="clearfix" />

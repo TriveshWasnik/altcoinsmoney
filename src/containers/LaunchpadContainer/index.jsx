@@ -8,7 +8,6 @@ import {
 
 import OurJoinUsFirst from "../../data/data-containers/LaunchpadDataContainer/data-OurJoinUsFirst.json";
 import OurJoinUsSecond from "../../data/data-containers/LaunchpadDataContainer/data-OurJoinUsSecond.json";
-import PlatformIco from "../../data/data-containers/LaunchpadDataContainer/data-PlatformIco.json";
 
 import launchpadHero from "../../assets/img/launchpad-hero.png";
 import launchpadFutureFundrising from "../../assets/img/launchpad-future-fundrising.png";
@@ -17,7 +16,7 @@ import "./style/HomeDemo1.scss";
 import Header from "../../layouts/Header";
 import FooterPages from "../../layouts/Footer/FooterPages";
 
-import SecHeroSection from "../../components/PageLaunchpad/HeroSection";
+import SecHeroSection from "../../components/Common/HeroSection";
 import SecAbout from "../../components/Common/SecAbout";
 import SmartContract from "../../components/Common/SmartContract/index.jsx";
 import JoinUs from "../../components/PageLaunchpad/JoinUs";
@@ -36,7 +35,11 @@ const LaunchpadContainer = () => {
         ClassDiv="col-12 col-lg-6 col-md-12"
         specialHead="AltCoinsMoney: AI Meets Blockchain : A Revolution In Crypto Investments"
         title="Step Into A World Where Visionary Technology Reshapes Crypto Investment."
+        description="At AltCoinsMoney, we harness the dual powers of AI and
+                  blockchain to craft a platform that stands out in the crypto
+                  landscape."
         img={launchpadHero}
+        showForm={false}
       />
       <br /> <br /> <br /> <br /> <br /> <br />
       <div className="clearfix" />

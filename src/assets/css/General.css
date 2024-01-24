@@ -5391,3 +5391,7 @@ body.light-version {
   padding-left: 20px;
   box-sizing: border-box;
 }
+
+.fullheight {
+  min-height: 100vh !important;
+}

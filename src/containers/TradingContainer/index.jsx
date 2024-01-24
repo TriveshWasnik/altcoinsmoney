@@ -20,7 +20,7 @@ import "./style/HomeDemo6.scss";
 import Header from "../../layouts/Header";
 import FooterPages from "../../layouts/Footer/FooterPages";
 
-import SecHeroSection from "../../components/PageTrading/HeroSection";
+import SecHeroSection from "../../components/Common/HeroSection";
 import SecPrices from "../../components/PageTrading/SecPrices";
 import SmartContract from "../../components/Common/SmartContract";
 
@@ -41,7 +41,10 @@ const TradingContainer = () => {
         ClassDiv="col-12 col-lg-6 col-md-12"
         specialHead="Mastering the Crypto Trading Frontier"
         title="Discover the future of crypto trading where cutting-edge AI meets algorithmic precision."
+        description="Welcome to a realm that transcends mere transactions — welcome
+                  to strategic financial symphonies."
         img={HomeDemo6About1}
+        showForm={false}
       />
       <div className="clearfix" />
       <br /> <br /> <br />

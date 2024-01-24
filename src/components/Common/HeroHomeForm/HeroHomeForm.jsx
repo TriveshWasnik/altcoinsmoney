@@ -1,7 +1,7 @@
 import React from "react";
 import { SlideCountdown } from "react-fancy-countdown";
 import { Line } from "rc-progress";
-import InputBox from "../InputBox/InputBox";
+import InputBox from "../../InputBox/InputBox";
 
 function HeroHomeForm({ icoCounterClass = "ico-counter dotted-bg" }) {
   return (

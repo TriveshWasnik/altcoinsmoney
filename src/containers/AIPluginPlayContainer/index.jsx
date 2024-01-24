@@ -1,8 +1,6 @@
 import { useEffect } from "react";
 import { addRemoveClassBody } from "../../utils";
 
-import PlatformIco from "../../data/data-containers/AIPluginPlayDataContainer/data-PlatformIco.json";
-
 import FeaturesOtherTop from "../../data/data-containers/AIPluginPlayDataContainer/data-FeaturesOtherTop.json";
 import FeaturesOtherDown from "../../data/data-containers/AIPluginPlayDataContainer/data-FeaturesOtherDown.json";
 
@@ -12,7 +10,7 @@ import "./style/HomeDemo5.scss";
 import Header from "../../layouts/Header";
 import FooterPages from "../../layouts/Footer/FooterPages";
 
-import SecHeroSection from "../../components/PageAIPluginPlay/HeroSection";
+import SecHeroSection from "../../components/Common/HeroSection";
 import FeaturesOther from "../../components/PageAIPluginPlay/FeaturesOther";
 import OurPlatform from "../../components/Common/OurPlatform";
 
@@ -30,7 +28,12 @@ const AIPluginPlayContainer = () => {
         specialHead="Welcome to the Future: AI Plugin Play Platform"
         title="Unleash AI Magic: Streamlining Workflows & Elevating Productivity"
         text="This Isn't Your Average Workday"
+        description="Enter a realm where efficiency is the name of the game.
+                  Experience the pinnacle of productivity with our AI Plugin
+                  Play Platform, a technology marvel that's bound to redefine
+                  how you work and create."
         img={streamline}
+        showForm={false}
       />
       <div className="clearfix" />
       <FeaturesOther
