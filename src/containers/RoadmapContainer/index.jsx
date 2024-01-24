@@ -10,11 +10,11 @@ import "./style/HomeDemo2.scss";
 import Header from "../../layouts/Header";
 import FooterPages from "../../layouts/Footer/FooterPages";
 
-import SecHeroSection from "../../components/HeroSection";
-import TokenDistribution from "../../components/TokenDistribution";
-import OurTeam from "../../containers/RoadmapContainer/OurTeam";
+import SecHeroSection from "../../components/PageRoadmap/HeroSection";
+import TokenDistribution from "../../components/PageRoadmap/TokenDistribution";
+import OurTeam from "../../components/PageRoadmap/OurTeam";
 
-import Roadmap from "../../components/Roadmap/index.jsx";
+import Roadmap from "../../components/PageRoadmap/Roadmap/index.jsx";
 
 const RoadmapContainer = () => {
   useEffect(() => {
@@ -36,19 +36,6 @@ const RoadmapContainer = () => {
         HomeDemo1Or4Or5Or6={false}
       />
 
-      {/*
-        <SecHeroSection
-        ClassSec="hero-section moving-2 section-padding"
-        ClassDiv="col-12 col-lg-6 col-md-12"
-        specialHead="Welcome to the Future: AI Plugin Play Platform"
-        title="Unleash AI Magic: Streamlining Workflows & Elevating Productivity"
-        text="This Isn't Your Average Workday"
-        //   link1="Whitepaper"
-        //   link2="Buy Token"
-        img={streamline}
-      />
-      <div className="clearfix" />
-        */}
       <div className="clearfix" />
       <div className="clearfix" />
       <TokenDistribution

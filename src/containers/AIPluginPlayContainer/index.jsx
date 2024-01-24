@@ -12,9 +12,9 @@ import "./style/HomeDemo5.scss";
 import Header from "../../layouts/Header";
 import FooterPages from "../../layouts/Footer/FooterPages";
 
-import SecHeroSection from "../../containers/AIPluginPlayContainer/HeroSection";
-import FeaturesOther from "./FeaturesOther";
-import OurPlatform from "./OurPlatform";
+import SecHeroSection from "../../components/PageAIPluginPlay/HeroSection";
+import FeaturesOther from "../../components/PageAIPluginPlay/FeaturesOther";
+import OurPlatform from "../../components/PageAIPluginPlay/OurPlatform";
 
 const AIPluginPlayContainer = () => {
   useEffect(() => {
@@ -30,60 +30,16 @@ const AIPluginPlayContainer = () => {
         specialHead="Welcome to the Future: AI Plugin Play Platform"
         title="Unleash AI Magic: Streamlining Workflows & Elevating Productivity"
         text="This Isn't Your Average Workday"
-        //   link1="Whitepaper"
-        //   link2="Buy Token"
         img={streamline}
       />
       <div className="clearfix" />
-      {/* <OurServices 
-          ServicesinfoUp={ServicesinfoUp}
-          ServicesinfoDown={ServicesinfoDown}/> */}
       <FeaturesOther
         addOther={true}
         FeaturesOtherTop={FeaturesOtherTop}
         FeaturesOtherDown={FeaturesOtherDown}
       />
-      {/* <SecTrust data={SecTrustContent} />
-        <div className="clearfix" />
-        <AboutOther
-            ClassTitle="gradient-text"
-        /> */}
       <br /> <br /> <br />
       <OurPlatform data={PlatformIco} />
-      {/* <SecPrices
-            ClassSec="features section-padding-0-100"
-            data={SecPricesInfo}
-        />
-        <SpreadMap
-            Wwhitepaper={HomeDemo4Wwhitepaper}
-        />
-        <TokenDistribution
-            data={TokenDistributionInfo}
-            ClassSpanTitle="gradient-text blue"
-        />
-        <Roadmap
-            data={RoadmapInfo}
-            ClassSpanTitle="gradient-text blue"
-        />
-        <Features2
-            icoCounterClass="ico-counter dotted-bg mb-30"
-            addOther={true}
-            FeaturesOtherTop={FeaturesOtherTop}
-            FeaturesOtherDown={FeaturesOtherDown}
-        />
-        <Faq
-            data={FaqInfo}
-            ClassSpanTitle="gradient-text blue"
-        />
-        <OurTeam
-            data={OurTeamInfo}
-            ClassSpanTitle="gradient-text blue"
-        /> */}
-      {/* <Subscribe /> */}
-      {/* <OurBlog
-            data={OurBlogInfo}
-            ClassSpanTitle="gradient-text blue"
-        /> */}
       <FooterPages ClassSpanTitle="gradient-text" />
     </div>
   );
