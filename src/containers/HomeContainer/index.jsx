@@ -9,8 +9,6 @@ import {
 } from "../../data/data-containers/HomeDataContainer/data-Home.js";
 
 import TokenDistributionInfo from "../../data/data-containers/HomeDataContainer/data-TokenDistributionInfo.json";
-import FeaturesOtherTop from "../../data/data-containers/HomeDataContainer/data-FeaturesOtherTop.json";
-import FeaturesOtherDown from "../../data/data-containers/HomeDataContainer/data-FeaturesOtherDown.json";
 import FaqInfo from "../../data/data-containers/data-FaqInfo.json";
 
 import { HomeDemo1About1 } from "../../utils/allImgs";
@@ -20,18 +18,19 @@ import "./style/HomeDemo2.scss";
 import Header from "../../layouts/Header";
 import FooterPages from "../../layouts/Footer/FooterPages";
 
-import AboutOther from "../../components/PageHome/AboutOther";
-import SecAbout from "../../components/PageHome/SecAbout";
+import AboutOther from "../../components/Common/AboutOther";
+import SecAbout from "../../components/Common/SecAbout";
 
 import Features2 from "../../components/PageHome/Features2";
 import TokenDistribution from "../../components/Common/TokenDistribution";
 import Faq from "../../components/PageHome/Faq";
 import OurTeam from "../../components/Common/OurTeam";
 
-import HowItWorks from "../../components/PageHome/HowItWorks";
+import HowItWorks from "../../components/Common/HowItWorks";
 import HeroSectionHome from "../../components/PageHome/HeroSectionHome";
 import RoadMapInfo from "../../data/data-containers/RoadmapDataContainer/data-RoadmapInfo.json";
 import Roadmap from "../../components/Common/Roadmap/index.jsx";
+import { HomeDemo1Computer } from "../../utils/allImgs";
 
 const HomeContainer = () => {
   useEffect(() => {
@@ -55,9 +54,24 @@ const HomeContainer = () => {
         Features2InfoTop={Features2InfoTop}
         Features2InfoDown={Features2InfoDown}
       />
-      <AboutOther />
+      <AboutOther
+        subtext="About The Platform"
+        heading="At The Core of AltCoinsMoney"
+        description="At its core, our platform harnesses blockchain technology aiming
+                to redefine the decentralized finance (DeFi) arena. Integrating
+                predictive AI, automated trading, and robust investor fund
+                safeguards, we are shifting paradigms in how you experience
+                cryptocurrencies."
+        img={HomeDemo1Computer}
+      />
       <br /> <br /> <br />
-      <HowItWorks data={HowItWorksInfo} ClassSpanTitle="gradient-text" />
+      <HowItWorks
+        title="Envision And Achieve"
+        text="Advanced Predictive AI"
+        description="Possess the ability to discern market tendencies, forecast price shifts, and pinpoint burgeoning opportunities, all in real-time. Our state-of-the-art predictive AI models grant you a strategic edge."
+        data={HowItWorksInfo}
+        ClassSpanTitle="gradient-text"
+      />
       <SecAbout
         imgDwon={false}
         title="Introducing the LaunchPad"

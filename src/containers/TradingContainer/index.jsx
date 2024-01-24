@@ -22,10 +22,10 @@ import FooterPages from "../../layouts/Footer/FooterPages";
 
 import SecHeroSection from "../../components/PageTrading/HeroSection";
 import SecPrices from "../../components/PageTrading/SecPrices";
-import SmartContract from "../../components/PageTrading/SmartContract";
+import SmartContract from "../../components/Common/SmartContract";
 
 import JoinUs from "../../components/PageTrading/JoinUs";
-import HowItWorks from "../../components/PageTrading/HowItWorks";
+import HowItWorks from "../../components/Common/HowItWorks";
 import TokenFeatures from "../../components/PageTrading/TokenFeatures";
 
 const TradingContainer = () => {
@@ -55,13 +55,26 @@ const TradingContainer = () => {
         OurJoinUsFirst={OurJoinUsFirst}
         OurJoinUsSecond={OurJoinUsSecond}
       />
-      <HowItWorks data={HowItWorksInfo} ClassSpanTitle="gradient-text " />
+      <HowItWorks
+        title="Bot Trading"
+        text="The Future of Optimized Trading Strategy"
+        description="From market-making to scalping, our trading bots are designed for efficiency and profitability, offering you a diversified portfolio of strategies."
+        data={HowItWorksInfo}
+        ClassSpanTitle="gradient-text "
+      />
       <SecPrices
         ClassSec="features section-padding-0-100"
         data={SecPricesInfo}
       />
       <div className="clearfix" />
-      <SmartContract data={SmartContractinfo} />
+      <SmartContract
+        className="dream-dots"
+        title="Harnessing Expertise for Amplified Returns"
+        description="Harness the collective wisdom of seasoned traders and benefit
+                from their strategies without spending years gaining the same
+                expertise."
+        data={SmartContractinfo}
+      />
       <div className="clearfix" />
       <br /> <br /> <br />
       <div className="clearfix" />

@@ -3,8 +3,6 @@ import { addRemoveClassBody } from "../../utils";
 
 import { Services } from "../../data/data-containers/AboutDataContainer/data-About.js";
 
-import PlatformIco from "../../data/data-containers/AboutDataContainer/data-PlatformIco.json";
-
 import aboutHeroPlatform from "../../assets/img/about_hero_platform.png";
 import aboutAltcoinsMoney from "../../assets/img/about_altcoinsmoney.png";
 
@@ -14,13 +12,13 @@ import Header from "../../layouts/Header";
 import FooterPages from "../../layouts/Footer/FooterPages";
 
 import SecHeroSection from "../../components/PageAbout/HeroSection";
-import AboutOther2 from "../../components/PageAbout/AboutOther2";
+import AboutOther from "../../components/Common/AboutOther";
 
 import SpreadMap from "../../components/PageAbout/SpreadMap";
 
 import OurServices from "../../components/PageAbout/OurServices";
 import OurPlatform from "../../components/Common/OurPlatform";
-
+import aboutMission from "../../assets/img/about_mission.png";
 const AboutContainer = () => {
   useEffect(() => {
     addRemoveClassBody("darker");
@@ -38,7 +36,13 @@ const AboutContainer = () => {
       />
       <br /> <br />
       <div className="clearfix" />
-      <AboutOther2 ClassTitle="gradient-text" />
+      <AboutOther
+        heading="Our Mission"
+        description="Our mission is to create an AI-enhanced decentralized ecosystem
+                that acts as a catalyst for individuals, startups, and seasoned
+                developers. Here, dreams meet reality."
+        img={aboutMission}
+      />
       <OurPlatform
         title="The Crucible of Innovtion and Capital"
         text="Introducing the Launchpad"

@@ -18,9 +18,8 @@ import Header from "../../layouts/Header";
 import FooterPages from "../../layouts/Footer/FooterPages";
 
 import SecHeroSection from "../../components/PageLaunchpad/HeroSection";
-import SecAbout from "../../components/PageLaunchpad/SecAbout";
-import SmartContract from "../../components/PageLaunchpad/SmartContract";
-import SmartContractOther from "../../components/PageLaunchpad/SmartContractOther";
+import SecAbout from "../../components/Common/SecAbout";
+import SmartContract from "../../components/Common/SmartContract/index.jsx";
 import JoinUs from "../../components/PageLaunchpad/JoinUs";
 import OurPlatform from "../../components/Common/OurPlatform";
 
@@ -55,8 +54,19 @@ const LaunchpadContainer = () => {
         text="The Future of Fundraising: Your Bridge to Crypto Success"
         img={launchpadFutureFundrising}
       />
-      <SmartContract data={SmartContractinfo} />
-      <SmartContractOther data={SmartContractOtherinfo} />
+      <SmartContract
+        heading="Benefits Of Our Launchpad"
+        title="For Investors"
+        description="Our launchpad offers secure, AI-enhanced investing with high growth potential in the evolving crypto space."
+        data={SmartContractinfo}
+      />
+      <SmartContract
+        title="For Startups"
+        description="Our launchpad propels startups with AI insights and blockchain
+                security and initial social offering (ISO), accelerating your
+                journey from concept to market leader."
+        data={SmartContractOtherinfo}
+      />
       <JoinUs
         OurJoinUsFirst={OurJoinUsFirst}
         OurJoinUsSecond={OurJoinUsSecond}

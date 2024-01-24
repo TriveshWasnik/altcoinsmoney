@@ -103,24 +103,13 @@ export const SmartContractinfo = [
   {
     img: HomeDemo1FeaturesS1,
     title: "Quality Assurance",
-    text1:
-      " Rigorous due diligence ensures only top-tier projects make the cut.",
+    text: " Rigorous due diligence ensures only top-tier projects make the cut.",
   },
   {
     img: HomeDemo1FeaturesS2,
     title: "Efficient Investment Mechanism",
-    text1: "An optimized, secure, and streamlined investment process.",
+    text: "An optimized, secure, and streamlined investment process.",
   },
-  // {
-  //     img:HomeDemo1FeaturesS3,
-  //     title:"Software development kit (SDK)"
-
-  // },
-  // {
-  //     img:HomeDemo1FeaturesS4,
-  //     title:"Java virtual machine (JVM)"
-
-  // },
 ];
 
 export const SmartContractOtherinfo = [
@@ -139,11 +128,6 @@ export const SmartContractOtherinfo = [
     title: "Community Building",
     text: "Grow a robust and engaged community around your project.",
   },
-  // {
-  //     img:HomeDemo1FeaturesS4,
-  //     title:"Java virtual machine (JVM)"
-
-  // },
 ];
 
 export const Features2InfoTop = [
