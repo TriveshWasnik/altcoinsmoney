@@ -10,7 +10,7 @@ import "./style/HomeDemo2.scss";
 import Header from "../../layouts/Header";
 import FooterPages from "../../layouts/Footer/FooterPages";
 
-import SecHeroSection from "../../components/PageRoadmap/HeroSection";
+import SecHeroSection from "../../components/Common/HeroSection";
 import TokenDistribution from "../../components/Common/TokenDistribution";
 import OurTeam from "../../components/Common/OurTeam";
 
@@ -30,8 +30,8 @@ const RoadmapContainer = () => {
         specialHead="Welcome to Roadmap"
         title="AI Meets Crypto: Revolutionizing the Future"
         description="Embark on a journey where artificial intelligence enhances the world of cryptocurrency, unlocking unprecedented possibilities."
-        link1="Join Presale"
-        link2="Read Whitepaper"
+        link1="Whitepaper"
+        link2="Audit"
         HomeDemo1Or3Or4Or5Or6={false}
         HomeDemo1Or4Or5Or6={false}
       />

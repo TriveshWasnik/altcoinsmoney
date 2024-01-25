@@ -42,6 +42,7 @@ const AboutContainer = () => {
       <br /> <br />
       <div className="clearfix" />
       <AboutOther
+        className=""
         heading="Our Mission"
         description="Our mission is to create an AI-enhanced decentralized ecosystem
                 that acts as a catalyst for individuals, startups, and seasoned

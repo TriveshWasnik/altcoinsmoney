@@ -1,5 +1,5 @@
-import { FooterPattern, FooterLogo } from "../../../utils/allImgs";
-
+import { FooterPattern } from "../../../utils/allImgs";
+import FooterLogo from "../../../assets/img/icons/header-logo.png";
 import SectionHeading from "../../../components/SectionHeading";
 
 import "../Footer.scss";

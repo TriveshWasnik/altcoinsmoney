@@ -5313,6 +5313,12 @@ body.light-version {
   font-size: 16px;
 }
 
+@media screen and (max-width: 991px) {
+  .contactUsEmailContainer {
+    margin: 12rem 5% 0 5%;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .hero-home-section {
     height: 1200px;
@@ -5394,4 +5400,9 @@ body.light-version {
 
 .fullheight {
   min-height: 100vh !important;
+}
+
+.about-other-img {
+  max-width: 400px;
+  margin: 0 auto;
 }

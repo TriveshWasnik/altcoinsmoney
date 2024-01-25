@@ -31,7 +31,7 @@ const AboutOther = ({
             </div>
           </div>
           <div className="col-12 col-lg-6 offset-lg-0 col-md-12 mt-30 no-padding-left">
-            <div className="welcome-meter floating-anim fadeInUp">
+            <div className="welcome-meter floating-anim fadeInUp about-other-img">
               <img draggable="false" src={img} alt="" />
             </div>
           </div>

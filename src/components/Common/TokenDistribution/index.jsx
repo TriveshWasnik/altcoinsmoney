@@ -27,7 +27,7 @@ const TokenDistribution = ({ data, ClassSpanTitle }) => {
                 src={fundAllocationImg}
                 className="center-block"
                 alt=""
-                style={{ width: "600px", height: "580px" }}
+                style={{ width: "auto", height: "auto" }}
               />
             </div>
           </div>

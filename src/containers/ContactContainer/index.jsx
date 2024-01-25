@@ -16,7 +16,7 @@ const ContactContainer = () => {
   }, []);
 
   return (
-    <div>
+    <div className="contactus" id="contactus">
       <Header Title="Altcoins Money - Contact" />
       <ContactUsEmail />
 
