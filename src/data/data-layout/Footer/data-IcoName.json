@@ -1,5 +1,5 @@
 [
-  { "link": "#", "IcoName": "fa fa-twitter" },
+  { "link": "https://twitter.com/AltCoinsMoney_", "IcoName": "fa fa-twitter" },
   { "link": "https://t.me/+NHQc7mdmcKNjY2E9", "IcoName": "fa fa-telegram" },
   {
     "link": "https://www.instagram.com/altcoinsmoney?igsh=MWR0cWttNjQ4NTVjNw==",
@@ -9,5 +9,8 @@
     "link": "https://whatsapp.com/channel/0029Va99eg4JuyAIdqWvoX1G",
     "IcoName": "fa fa-whatsapp"
   },
-  { "link": "#", "IcoName": "fa fa-medium" }
+  {
+    "link": "https://medium.com/@altcoinsmoneyofficial",
+    "IcoName": "fa fa-medium"
+  }
 ]

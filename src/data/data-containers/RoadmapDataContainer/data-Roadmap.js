@@ -237,7 +237,7 @@ export const Features2InfoDown = [
 export const OurTeamInfo = [
   {
     img: HomeDemo2TeamImg1,
-    link: "",
+    link: "https://twitter.com/AltCoinsMoney_",
     // title:"Joman Helal",
     // text:"Executive Officer"
   },

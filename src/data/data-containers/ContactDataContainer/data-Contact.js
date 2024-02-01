@@ -10,20 +10,10 @@ import {
   HomeDemo2Feature3,
   HomeDemo2Feature4,
   HomeDemo2Feature5,
-  HomeDemo2Feature6,
-  HomeDemo2Feature7,
-  HomeDemo2Feature8,
   HomeDemo2FeaturesS1,
   HomeDemo2FeaturesS2,
   HomeDemo2FeaturesS3,
   HomeDemo2FeaturesS4,
-  // HomeDemo2FeaturesS4,
-
-  // HomeDemo2FeaturesS1,
-  // HomeDemo2FeaturesS2,
-  // HomeDemo2FeaturesS3,
-  // HomeDemo2FeaturesS4,
-  // HomeDemo2FeaturesS4,
   HomeDemo2FeaturesF1,
   HomeDemo2FeaturesF2,
   HomeDemo2FeaturesF3,
@@ -237,7 +227,7 @@ export const Features2InfoDown = [
 export const OurTeamInfo = [
   {
     img: HomeDemo2TeamImg1,
-    link: "",
+    link: "https://twitter.com/AltCoinsMoney_",
     // title:"Joman Helal",
     // text:"Executive Officer"
   },
